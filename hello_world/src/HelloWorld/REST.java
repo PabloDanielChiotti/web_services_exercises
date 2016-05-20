@@ -6,6 +6,9 @@ import javax.ws.rs.PUT;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 
+/**
+ * La anotacion Path sirve para identificar un web service.
+ */
 @Path(value = "restful path")
 public class REST {
 
